@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 import Profile from "./Profile";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
 
-        <Profile/>
+        <Profile />
       </header>
     </div>
   );

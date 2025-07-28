@@ -11,6 +11,36 @@
   background: var(--blue-600);
   aspect-ratio: 1;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.qr-code-image {
+  width: 160px;
+  aspect-ratio: 1;
+  z-index: 1;
+}
+
+.ellipse {
+  position: absolute;
+
+  aspect-ratio: 1;
+  background: var(--blue-500);
+  border-radius: 50%;
+}
+
+.ellipse--top-left {
+  left: -131.5px;
+  top: -164.5px;
+  width: 328px;
+}
+
+.ellipse--bottom-right {
+  right: -113.5px;
+  bottom: -186.5px;
+  width: 270px;
 }
 
 .title {

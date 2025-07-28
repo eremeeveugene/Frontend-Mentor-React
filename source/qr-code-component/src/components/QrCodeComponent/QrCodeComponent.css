@@ -1,7 +1,23 @@
-.container {
-  /* styles */
+.card {
+  background: var(--white);
+  border-radius: 20px;
+  width: 320px;
+  gap: 24px;
+  display: grid;
+  padding: 16px 16px 40px 16px;
 }
 
-.inner {
-  /* styles */
+.image-card {
+  background: var(--blue-600);
+  aspect-ratio: 1;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.caption {
+  color: var(--slate-500);
+  text-align: center;
 }

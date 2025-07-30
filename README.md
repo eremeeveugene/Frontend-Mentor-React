@@ -70,3 +70,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### QR Code Component
+
+Expected Result - Desktop
+
+<img width="1440" height="960" alt="Actual Result - Desktop" src="https://github.com/user-attachments/assets/92504a2d-2ab0-43a7-b018-4a58023afde1" />
+
+Actual Result - Desktop
+
+<img width="1440" height="960" alt="Expected Result - Desktop" src="https://github.com/user-attachments/assets/c391516b-8efc-4ddd-a5e1-f26c062f0e86" />
+
+Expected Result - Mobile
+
+<img width="375" height="812" alt="Expected Result - Mobile" src="https://github.com/user-attachments/assets/865fd4cc-c578-4f50-b044-e63c1372a8e6" />
+
+Actual Result - Mobile
+
+<img width="375" height="812" alt="Actual Result - Mobile" src="https://github.com/user-attachments/assets/12dc341d-8691-4bb2-bd2c-de69d0155d10" />

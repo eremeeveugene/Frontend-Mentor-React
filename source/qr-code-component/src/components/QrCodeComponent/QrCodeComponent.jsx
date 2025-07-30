@@ -9,7 +9,7 @@ function QrCodeComponent() {
 
         <img
           className="card__qr-code-image"
-          src="/images/qr-code.svg"
+          src="./images/qr-code.svg"
           alt="QR Code"
         />
       </div>

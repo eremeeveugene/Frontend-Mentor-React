@@ -1,3 +1,5 @@
+@use "./../../styles/_typography.scss" as *;
+
 .card {
   background: var(--white);
   border-radius: 20px;
@@ -5,6 +7,7 @@
   gap: 24px;
   display: grid;
   padding: 16px 16px 40px 16px;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0477);
 }
 
 .image-card {
@@ -25,7 +28,6 @@
 
 .ellipse {
   position: absolute;
-
   aspect-ratio: 1;
   background: var(--blue-500);
   border-radius: 50%;
@@ -43,11 +45,23 @@
   width: 270px;
 }
 
-.title {
-  text-align: center;
+.description-container {
+  gap: 16px;
+  display: grid;
+  padding: 0 16px;
 }
 
-.caption {
+.title {
+  text-align: center;
+  @include text-preset($text-preset-1);
+}
+
+.description {
   color: var(--slate-500);
   text-align: center;
+  @include text-preset($text-preset-1);
+
+  @media (min-width: 1440px) {
+    @include text-preset($text-preset-2);
+  }
 }

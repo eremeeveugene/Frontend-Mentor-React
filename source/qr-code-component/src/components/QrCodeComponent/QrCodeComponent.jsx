@@ -1,4 +1,4 @@
-import "./QrCodeComponent.css";
+import "./QrCodeComponent.scss";
 
 function QrCodeComponent() {
   return (
@@ -14,14 +14,16 @@ function QrCodeComponent() {
         />
       </div>
 
-      <h4 className="text-preset-1 title">
-        Improve your front-end skills by building projects
-      </h4>
+      <div className="description-container">
+        <h4 className="title">
+          Improve your front-end skills by building projects
+        </h4>
 
-      <p className="text-preset-2 caption">
-        Scan the QR code to visit Frontend Mentor and take your coding skills to
-        the next level
-      </p>
+        <p className="description">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
     </div>
   );
 }

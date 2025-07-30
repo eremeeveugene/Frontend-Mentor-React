@@ -2,29 +2,29 @@ import "./QrCodeComponent.scss";
 
 function QrCodeComponent() {
   return (
-    <div className="card">
-      <div className="image-card">
-        <div className="ellipse ellipse--top-left"></div>
-        <div className="ellipse ellipse--bottom-right"></div>
+    <section className="card">
+      <div className="card__qr-code-container">
+        <div className="card__ellipse--top-left"></div>
+        <div className="card__ellipse--top-right"></div>
 
         <img
-          className="qr-code-image"
+          className="card__qr-code-image"
           src="/images/qr-code.svg"
           alt="QR Code"
         />
       </div>
 
-      <div className="description-container">
-        <h4 className="title">
+      <div className="card__description-container">
+        <h4 className="card__title">
           Improve your front-end skills by building projects
         </h4>
 
-        <p className="description">
+        <p className="card__description">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 

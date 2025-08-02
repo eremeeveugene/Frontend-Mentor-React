@@ -1,0 +1,13 @@
+:root {
+  /* Colors */
+  --white: #ffffff;
+  --yellow: #f4d043;
+  --gray-950: #111111;
+  --gray-500: #6b6b6b;
+
+  /* Typography */
+  --font-family: "Figtree", sans-serif;
+  --font-size-paragraph: 16px;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}

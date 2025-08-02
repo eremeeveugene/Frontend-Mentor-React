@@ -1,0 +1,27 @@
+.text-preset-1 {
+  font-weight: var(--font-weight-bold);
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.text-preset-2 {
+  font-weight: var(--font-weight-medium);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.text-preset-3 {
+  font-weight: var(--font-weight-medium);
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.text-preset-3-bold {
+  font-weight: var(--font-weight-bold);
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}

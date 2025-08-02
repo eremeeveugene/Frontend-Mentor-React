@@ -59,7 +59,7 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size-paragraph);
   font-weight: var(--font-weight-regular);
-  background-color: var(--slate-300);
-  color: var(--slate-900);
+  background-color: var(--yellow);
+  color: var(--gray-950);
   -webkit-font-smoothing: antialiased;
 }
